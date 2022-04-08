@@ -4,7 +4,12 @@ function saludar() {
 function despedir() {
     alert ("chau")
 }
-function buenas() {
-    alert ("pasaste por aca")
+function cambiar() {
+    document.getElementById("a1").style.color="red";
+    document.getElementById("a1").style.backgroundColor="black";
+}
+function original() {
+    document.getElementById("a1").style.color="azure"
+    document.getElementById("a1").style.backgroundColor="blue"
     
 }
